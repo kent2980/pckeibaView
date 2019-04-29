@@ -8,7 +8,7 @@
 <!--     JDBCの設定です (1) -->
         <jdbcConnection
             driverClass="com.mysql.jdbc.Driver"
-            connectionURL="jdbc:mysql://localhost:3306/pckeibaview"
+            connectionURL="jdbc:mysql://localhost:3306/pckeiba"
             userId="root"
             password="kent6839"
         />
@@ -29,6 +29,6 @@
         />
  
 <!--     生成対象のテーブルです（3) -->
-        <table schema="pckeibaview" tableName="%" />
+        <table schema="pckeiba" tableName="%" />
     </context>
 </generatorConfiguration>
