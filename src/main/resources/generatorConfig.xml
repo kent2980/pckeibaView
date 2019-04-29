@@ -4,31 +4,31 @@
     <classPathEntry
         location="C:\Users\kent2\.m2\repository\mysql\mysql-connector-java\5.1.33\mysql-connector-java-5.1.33.jar" />
     <context id="context1">
- 
-<!--     JDBC‚ÌÝ’è‚Å‚· (1) -->
+
+<!--     JDBCï¿½ÌÝ’ï¿½Å‚ï¿½ (1) -->
         <jdbcConnection
             driverClass="com.mysql.jdbc.Driver"
-            connectionURL="jdbc:mysql://localhost:3306/pckeiba"
+            connectionURL="jdbc:mysql://192.168.10.60:3306/pckeiba"
             userId="root"
             password="kent6839"
         />
- 
-<!--     Ž©“®¶¬‚·‚éƒGƒ“ƒeƒBƒeƒB‚ÌÝ’è‚Å‚· (2) -->
+
+<!--     ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½eï¿½Bï¿½eï¿½Bï¿½ÌÝ’ï¿½Å‚ï¿½ (2) -->
         <javaModelGenerator
-            targetPackage="com.example.entity"
+            targetPackage="com.pckeiba.entity"
             targetProject="src/main/java/"
         />
         <sqlMapGenerator
-            targetPackage="com.example.entity"
+            targetPackage="com.pckeiba.entity"
             targetProject="src/main/java/"
         />
         <javaClientGenerator
-            targetPackage="com.example.entity"
+            targetPackage="com.pckeiba.entity"
             targetProject="src/main/java/"
             type="XMLMAPPER"
         />
- 
-<!--     ¶¬‘ÎÛ‚Ìƒe[ƒuƒ‹‚Å‚·i3) -->
+
+<!--     ï¿½ï¿½ï¿½ï¿½ï¿½ÎÛ‚Ìƒeï¿½[ï¿½uï¿½ï¿½ï¿½Å‚ï¿½ï¿½i3) -->
         <table schema="pckeiba" tableName="%" />
     </context>
 </generatorConfiguration>

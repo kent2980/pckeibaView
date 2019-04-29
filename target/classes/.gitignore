@@ -1,5 +1,6 @@
 /com/
 /generatorConfig.xml
 /kent/
-/mybatis-config.xml
+/pckeiba-mybatis-config.xml
+/pckeibalink-mybatis-config.xml
 /META-INF/

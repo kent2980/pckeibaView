@@ -1,4 +1,4 @@
-package com.view.racedata;
+package com.aql.access;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -9,10 +9,10 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import com.example.entity.ViewRaceShosaiExample;
-import com.example.entity.ViewRaceShosaiMapper;
+import com.example.entity.UmaDataViewExample;
+import com.example.entity.UmaDataViewMapper;
 
-public class RaceShosaiReader implements Serializable,AutoCloseable {
+public class UmaDataViewSession implements Serializable,AutoCloseable {
 
 	/**
 	 *
@@ -23,17 +23,17 @@ public class RaceShosaiReader implements Serializable,AutoCloseable {
 		return serialVersionUID;
 	}
 
-	final private ViewRaceShosaiMapper mapper;
-	final private ViewRaceShosaiExample example;
+	final private UmaDataViewMapper mapper;
+	final private UmaDataViewExample example;
 	final private Reader r;
 	final private SqlSession session;
 
-	public RaceShosaiReader() throws IOException {
-		r = Resources.getResourceAsReader("mybatis-config.xml");
+	public UmaDataViewSession() throws IOException {
+		r = Resources.getResourceAsReader("pckeibalink-mybatis-config.xml");
 		SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(r);
 		session = factory.openSession();
-		mapper = session .getMapper(ViewRaceShosaiMapper.class);
-		example = new ViewRaceShosaiExample();
+		mapper = session .getMapper(UmaDataViewMapper.class);
+		example = new UmaDataViewExample();
 	}
 
 	@Override
@@ -42,11 +42,11 @@ public class RaceShosaiReader implements Serializable,AutoCloseable {
 		session.close();
 	}
 
-	public ViewRaceShosaiExample getExample() {
+	public UmaDataViewExample getExample() {
 		return example;
 	}
 
-	public ViewRaceShosaiMapper getMapper() {
+	public UmaDataViewMapper getMapper() {
 		return mapper;
 	}
 

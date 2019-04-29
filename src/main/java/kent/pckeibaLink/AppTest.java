@@ -3,16 +3,16 @@ package kent.pckeibaLink;
 import java.io.IOException;
 import java.util.List;
 
-import com.example.entity.ViewRaceShosai;
-import com.view.racedata.RaceShosaiReader;
+import com.aql.access.UmaDataViewSession;
+import com.example.entity.UmaDataView;
 
 public class AppTest {
 
 	public static void main(String[] args) {
-		List<ViewRaceShosai> list = null;
-		try (RaceShosaiReader rs = new RaceShosaiReader();) {
-			rs.getExample().createCriteria().andTokubetsuKyosoBangoEqualTo("0076");
-			rs.getExample().setOrderByClause("kaisai_nengappi desc limit 10");
+		List<UmaDataView> list = null;
+		try (UmaDataViewSession rs = new UmaDataViewSession();) {
+			rs.getExample().createCriteria().andKettoTorokuBangoEqualTo("2012104503");
+			rs.getExample().setOrderByClause("bamei asc");
 			list = rs.getMapper().selectByExample(rs.getExample());
 		} catch (IOException e) {
 			// TODO 自動生成された catch ブロック
@@ -22,8 +22,8 @@ public class AppTest {
 			e1.printStackTrace();
 		}
 
-		for(ViewRaceShosai data : list) {
-			System.out.println(data);
+		for(UmaDataView data : list) {
+			System.out.println(data.getBamei() + "," + data.getKakuteiChakujun() + "," + data.getKyosomeiHondai());
 		}
 	}
 

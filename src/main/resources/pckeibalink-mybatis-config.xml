@@ -3,23 +3,23 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
- 
-<!--     JDBC‚ÌÝ’è‚Å‚·(1) -->
+
+<!--     JDBCï¿½ÌÝ’ï¿½Å‚ï¿½(1) -->
     <environments default="sakila">
         <environment id="sakila">
             <transactionManager type="JDBC" />
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost/pckeiba" />
+                <property name="url" value="jdbc:mysql://192.168.10.60/pckeibalink" />
                 <property name="username" value="root" />
                 <property name="password" value="kent6839" />
             </dataSource>
         </environment>
     </environments>
- 
-<!--     ƒGƒ“ƒeƒBƒeƒB‚ÌƒpƒbƒP[ƒW‚ðŽw’è‚µ‚Ü‚·(2) -->
+
+<!--     ï¿½Gï¿½ï¿½ï¿½eï¿½Bï¿½eï¿½Bï¿½Ìƒpï¿½bï¿½Pï¿½[ï¿½Wï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½(2) -->
     <mappers>
         <package name="com.example.entity" />
     </mappers>
- 
+
 </configuration>
