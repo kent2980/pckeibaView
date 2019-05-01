@@ -15,10 +15,8 @@ public class AppTest {
 			rs.getExample().setOrderByClause("bamei asc");
 			list = rs.getMapper().selectByExample(rs.getExample());
 		} catch (IOException e) {
-			// TODO 自動生成された catch ブロック
 			e.printStackTrace();
 		} catch (Exception e1) {
-			// TODO 自動生成された catch ブロック
 			e1.printStackTrace();
 		}
 

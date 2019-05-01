@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--     JDBC�̐ݒ�ł�(1) -->
+    <environments default="sakila">
+        <environment id="sakila">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://192.168.10.60/pckeiba" />
+                <property name="username" value="root" />
+                <property name="password" value="kent6839" />
+            </dataSource>
+        </environment>
+    </environments>
+
+<!--     �G���e�B�e�B�̃p�b�P�[�W���w�肵�܂�(2) -->
+    <mappers>
+        <package name="com.pckeiba.entity" />
+    </mappers>
+
+</configuration>
