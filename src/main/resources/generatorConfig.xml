@@ -8,27 +8,27 @@
 <!--     JDBC�̐ݒ�ł� (1) -->
         <jdbcConnection
             driverClass="com.mysql.jdbc.Driver"
-            connectionURL="jdbc:mysql://192.168.10.60:3306/pckeibalink"
+            connectionURL="jdbc:mysql://192.168.10.60:3306/pckeiba"
             userId="root"
             password="kent6839"
         />
 
 <!--     ������������G���e�B�e�B�̐ݒ�ł� (2) -->
         <javaModelGenerator
-            targetPackage="com.example.entity"
+            targetPackage="com.pckeiba.entity"
             targetProject="src/main/java/"
         />
         <sqlMapGenerator
-            targetPackage="com.example.entity"
+            targetPackage="com.pckeiba.entity"
             targetProject="src/main/java/"
         />
         <javaClientGenerator
-            targetPackage="com.example.entity"
+            targetPackage="com.pckeiba.entity"
             targetProject="src/main/java/"
             type="XMLMAPPER"
         />
 
 <!--     �����Ώۂ̃e�[�u���ł��i3) -->
-        <table schema="pckeibalink" tableName="%" />
+        <table schema="pckeiba" tableName="%" />
     </context>
 </generatorConfiguration>

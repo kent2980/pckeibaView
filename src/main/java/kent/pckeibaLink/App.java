@@ -20,7 +20,7 @@ public class App {
     public static void main(String[] args) {
 
         // resources直下のmybatis-config.xmlを読み込みます
-        try (Reader r = Resources.getResourceAsReader("mybatis-config.xml");) {
+        try (Reader r = Resources.getResourceAsReader("pckeibalink-mybatis-config.xml");) {
 
             // 読み込んだ設定ファイルからSqlSessionFactoryを生成します
             SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(r);

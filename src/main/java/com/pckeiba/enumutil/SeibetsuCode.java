@@ -1,9 +1,9 @@
 package com.pckeiba.enumutil;
 
 public enum SeibetsuCode implements CodeInterface {
-	A("01","牡馬","牡"),
-	B("02","牝馬","牝"),
-	C("03","セン馬","セン")
+	A("1","牡馬","牡"),
+	B("2","牝馬","牝"),
+	C("3","セン馬","セン")
 	;
 
 	private SeibetsuCode(String code, String content, String contentIsShort) {

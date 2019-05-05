@@ -1,10 +1,11 @@
 package com.pckeiba.enumutil;
 
 public enum BabaJotaiCode implements CodeInterface {
-	FIRM("01","良"),
-	GOOD("02","稍重"),
-	YIELDING("03","重"),
-	SOFT("04","不良")
+	FIRM("1","良"),
+	GOOD("2","稍重"),
+	YIELDING("3","重"),
+	SOFT("4","不良"),
+	UNKNOWN("0","")
 	;
 
 	private BabaJotaiCode(String code, String content) {

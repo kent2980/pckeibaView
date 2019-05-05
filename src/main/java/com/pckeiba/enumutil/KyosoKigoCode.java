@@ -1,6 +1,7 @@
 package com.pckeiba.enumutil;
 
 public enum KyosoKigoCode implements CodeInterface {
+	UNKNOWN("000",""),
 	DSN("001","(指定)"),
 	WAK("002","若手騎手"),
 	DES("003","[指定]"),

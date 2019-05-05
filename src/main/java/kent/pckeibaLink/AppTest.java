@@ -3,14 +3,14 @@ package kent.pckeibaLink;
 import java.io.IOException;
 import java.util.List;
 
-import com.aql.access.UmaDataViewSession;
-import com.example.entity.UmaDataView;
+import com.aql.access.JvdUmagotoRaceJohoSession;
+import com.pckeiba.entity.JvdUmagotoRaceJoho;
 
 public class AppTest {
 
 	public static void main(String[] args) {
-		List<UmaDataView> list = null;
-		try (UmaDataViewSession rs = new UmaDataViewSession();) {
+		List<JvdUmagotoRaceJoho> list = null;
+		try (JvdUmagotoRaceJohoSession rs = new JvdUmagotoRaceJohoSession();) {
 			rs.getExample().createCriteria().andKettoTorokuBangoEqualTo("2012104503");
 			rs.getExample().setOrderByClause("bamei asc");
 			list = rs.getMapper().selectByExample(rs.getExample());
@@ -20,8 +20,8 @@ public class AppTest {
 			e1.printStackTrace();
 		}
 
-		for(UmaDataView data : list) {
-			System.out.println(data.getBamei() + "," + data.getKakuteiChakujun() + "," + data.getKyosomeiHondai());
+		for(JvdUmagotoRaceJoho data : list) {
+			System.out.println(data.getBamei() + "," + data.getKakuteiChakujun());
 		}
 	}
 

@@ -6,7 +6,7 @@ public enum KyosoShubetsuCode implements CodeInterface {
 	THREE_YEAR_OLDS_UP("13","3歳以上"),
 	FOUR_YEAR_OLDS_UP("14","4歳以上"),
 	THREE_YEAR_OLDS_UP_STEEPLE_CHASE("18","障害3歳以上"),
-	FOUR_YEAR_OLDS_UP_STEEPLE_CHASE("18","障害4歳以上"),
+	FOUR_YEAR_OLDS_UP_STEEPLE_CHASE("19","障害4歳以上"),
 	;
 
 	private KyosoShubetsuCode(String code, String content) {

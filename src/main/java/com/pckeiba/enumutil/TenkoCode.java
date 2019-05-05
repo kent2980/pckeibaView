@@ -1,12 +1,13 @@
 package com.pckeiba.enumutil;
 
 public enum TenkoCode implements CodeInterface {
-	FINE("01","晴"),
-	CLOUDY("02","曇"),
-	RAINY("03","雨"),
-	DRIZZLE("04","小雨"),
-	SNOW("05","雪"),
-	LIGHT_SNOW("06","小雪")
+	FINE("1","晴"),
+	CLOUDY("2","曇"),
+	RAINY("3","雨"),
+	DRIZZLE("4","小雨"),
+	SNOW("5","雪"),
+	LIGHT_SNOW("6","小雪"),
+	UNKNOWN("0","")
 	;
 
 	private TenkoCode(String code, String content) {

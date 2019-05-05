@@ -1,9 +1,10 @@
 package com.pckeiba.enumutil;
 
 public enum KishuMinaraiCode implements CodeInterface {
-	A("01","1Kg減","☆"),
-	B("02","2Kg減","△"),
-	C("03","3Kg減","▲")
+	A("1","1Kg減","☆"),
+	B("2","2Kg減","△"),
+	C("3","3Kg減","▲"),
+	D("0","","")
 	;
 
 	private KishuMinaraiCode(String code, String content, String contentKigo) {

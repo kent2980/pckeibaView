@@ -5,6 +5,7 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSanrentanHyos
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdRaceShosaiExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTrackCodeExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSeibetsuCodeExample.java
+C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\enumutil\KyakushitsuCode.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdChokyoshiShussobetsu1.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdGaibuShisuMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdWakurenHyosuKey.java
@@ -30,7 +31,6 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBameiImiYurai
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBanushiMasterMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdRecordMasterExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdHanroChokyoKey.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmagotoResult.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSanrentanOddsExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\ViewRaceShosaiMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\example\entity\LvdRaceResultMapper.java
@@ -65,6 +65,7 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdJikeiretsuTan
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTanpukuOddsYosoMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdChokyoshiSeiseki.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdJikeiretsuOddsMaster2.java
+C:\Users\kent2\git\pckeibaView\src\main\java\com\aql\access\JvdChokyoshiMasterSession.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKaisaiSchedule.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdHinshuCodeMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBanushiSeisekiKey.java
@@ -82,8 +83,8 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBanushiShusso
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdCourseHenkoExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdJikeiretsuOddsMaster2Key.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSeisaiSonotaMapper.java
+C:\Users\kent2\git\pckeibaView\src\main\java\com\aql\access\JvdKishuMasterSession.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKeibajoCodeMapper.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmagotoResultKey.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdHanroChokyo.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\example\entity\LvdRaceResult.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdOddsMasterYoso.java
@@ -104,7 +105,6 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTorokubagotoJ
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSanrenpukuOddsYosoKey.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTanpukuOddsYoso.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKyosobaShussobetsu1.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\LvdRaceResultExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuSeisekiExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdDataMiningYosoTmExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSanrentanHyosuMapper.java
@@ -148,6 +148,7 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKyosobaShusso
 C:\Users\kent2\git\pckeibaView\src\main\java\com\example\entity\UmaDataViewMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdWin5RaceExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKyosobaShussobetsu1Example.java
+C:\Users\kent2\git\pckeibaView\src\main\java\com\aql\access\JvdBanushiMasterSession.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdWakurenOdds.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\ViewRaceShosai.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdChokyoshiMasterExample.java
@@ -196,13 +197,11 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSetupData.jav
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSeibetsuKubunMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\enumutil\KyosoKigoCode.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKyosoKigoCode.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\LvdRaceResultMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdJikeiretsuOddsMaster1.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTanpukuOddsKey.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTanpukuOddsYosoKey.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdChokyoshiSeisekiMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmarenOddsYosoExample.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\UmaDataViewMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuMaster.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdSanrenpukuOddsYosoExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuSeisekiMapper.java
@@ -232,7 +231,6 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuChokyosh
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdCourseHenkoJiyuKubunMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdRecordKubunExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdWideOddsExample.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\LvdRaceResult.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmatanOddsYosoMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\kent\pckeibaLink\App.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmarenOdds.java
@@ -282,6 +280,7 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTorikeshiJoga
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdWideHyosuMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdHassoJikokuHenko.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdMochikomiKubunExample.java
+C:\Users\kent2\git\pckeibaView\src\main\java\com\aql\access\JvdKyosobaMasterSession.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\example\entity\JvdUmagotoResultKey.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuMinaraiCodeExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuShussobetsu2Key.java
@@ -348,7 +347,6 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTanpukuHyosuE
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdOddsMasterExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuSeiseki.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBanushiSeisekiMapper.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmagotoResultMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmagotoRaceJohoKey.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\enumutil\KihoShikakuCode.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdJikeiretsuWakurenOddsExample.java
@@ -380,7 +378,6 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBataijuMapper
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdOddsMasterYosoExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTorokubagotoJoho.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmakigoCodeExample.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\UmaDataViewExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdWin5RaceMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\example\entity\UmaDataViewExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBanushiSeiseki.java
@@ -401,7 +398,6 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\enumutil\BabaJotaiCode.
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKyosobaTorihikiKakaku.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdRecordMasterMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdCourseHenkoMapper.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdUmagotoResultExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdTokubetsuTorokubaExample.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdKishuShussobetsu2Mapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\IpatTohyoRirekiMapper.java
@@ -421,4 +417,3 @@ C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdBataijuExampl
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdHanshokubaMasterMapper.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdWin5HaraimodoshiKey.java
 C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\JvdOddsMasterYosoMapper.java
-C:\Users\kent2\git\pckeibaView\src\main\java\com\pckeiba\entity\UmaDataView.java
