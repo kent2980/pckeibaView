@@ -541,7 +541,6 @@ com\pckeiba\entity\JvdDataMiningYosoMapper.class
 com\pckeiba\entity\JvdKyosobaJogaiJohoExample$Criterion.class
 com\pckeiba\entity\JvdBabajotaiCodeExample$Criteria.class
 com\pckeiba\entity\JvdWakurenHyosuExample$Criterion.class
-kent\pckeibaLink\App.class
 com\pckeiba\entity\JvdMochikomiKubunExample$Criteria.class
 com\pckeiba\entity\JvdKyosobaShussobetsu1Example.class
 com\pckeiba\entity\JvdTrackCodeExample$Criteria.class
